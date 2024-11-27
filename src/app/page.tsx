@@ -28,7 +28,7 @@ import {
   Copy,
   User
 } from 'lucide-react';
-import { cn } from '@/lib/utils';
+import { cn } from '../lib/utils';
 
 // Particle System Configuration
 const PARTICLE_COLORS = ['#007CEE', '#0056A4', '#003F7A']; // Brand color variations
@@ -61,7 +61,7 @@ export default function Home() {
       delay: Math.random() * 2, // Random delay for animation start
     })), 
   []);
-  
+
   const [showPrivacyModal, setShowPrivacyModal] = useState(false);
 const [showTermsModal, setShowTermsModal] = useState(false);
 const [showContactModal, setShowContactModal] = useState(false);
