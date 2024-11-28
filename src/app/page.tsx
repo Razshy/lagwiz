@@ -6,6 +6,8 @@ import { Enhanced3DCard } from './components/Enhanced3DCard';
 import { PerformanceCard } from './components/PerformanceCard';
 import { PerformanceGraph } from './components/PerformanceGraph';
 import { SocialLink } from './components/SocialLink';
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 import { motion, useScroll, useTransform, useSpring, AnimatePresence } from 'framer-motion';
 import { useRef, useEffect, useState, useMemo } from 'react';
 import { 
